@@ -1,0 +1,129 @@
+/* Reset some default styles */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply overall styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f0f0f0;
+    color: #020469;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 3px 3px rgb(2, 36, 90);
+}
+
+#header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#logo {
+    width: 100%; /* Full width */
+    max-width: 160px; /* Maximum width */
+    height: auto; /* Auto height to maintain aspect ratio */
+    margin: 20px auto; /* Center logo */
+    margin-top: -48px;
+    margin-bottom: -48px;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center menu items */
+    font-weight: bold;
+}
+
+#menu li {
+    margin: 0 20px; /* Space between menu items */
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #020469;
+    transition: color 0.3s; /* Cambia la durata della transizione se necessario */
+}
+
+#menu li a:hover {
+    color: #b3b4da; /* Cambia il colore desiderato */
+}
+
+/* Main container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    text-align: center;
+    margin-top: 250px;
+}
+
+/* Image styles */
+#logo-instagram {
+    display: block;
+    margin: 0 auto;
+    max-width: 8%;
+    /* Aggiungi qui ulteriori stili per il logo Instagram */
+}
+
+#logo-gmail {
+    display: block;
+    margin: 0 auto;
+    max-width: 9%;
+    /* Aggiungi qui ulteriori stili per il logo Gmail */
+}
+
+/* Titolo styles */
+.titolo-instagram {
+    font-size: 15px;
+
+}
+
+.titolo-email {
+   font-size: 15px;
+}
+
+/* Stili per il footer */
+footer {
+    background-color: rgb(3, 36, 90);
+    color: #fff;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content .copyright {
+    font-size: 14px;
+}
+
+.footer-content .social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 8px;
+    margin-right: 30px;
+}
+
+.footer-content .social-links a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
